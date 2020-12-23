@@ -1,0 +1,56 @@
+body {
+    width: 90%;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: #313131;
+}
+
+nav {
+    height: 25vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: AR Archy;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.nav-links {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #707070;
+}
+
+.first-image {
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../images/სლაიდერი3.jpg);
+}
+
+.title {
+    justify-content: flex-start;
+    font-size: 40px;
+    font-family: AR Archy;
+    font-weight: 900;
+    padding: 5% 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.container-box img{
+    width: 100%;
+    max-width: 50%;
+    max-height: 200px;
+}
