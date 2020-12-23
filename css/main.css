@@ -21,6 +21,13 @@ nav {
     cursor: pointer;
 }
 
+.mobile-nav {
+    width: 100%;
+    height: 100%;
+    background-color: #2E2E2E;
+    display: none;
+}
+
 .first-line, .second-line, .third-line {
     width: 30px;
     height: 5px;
