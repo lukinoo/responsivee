@@ -10,7 +10,6 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: AR Archy;
     font-size: 20px;
     font-weight: 700;
 }
@@ -40,17 +39,48 @@ nav {
     font-family: AR Archy;
     font-weight: 900;
     padding: 5% 0;
+    color: #707070;
 }
 
 .container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+
+.container-box {
+    width: 350px;
+    height: 50vh;
+    border: 1px solid #707070;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    color: #707070;
+    font-family: AR Archy;
 }
 
 .container-box img{
     width: 100%;
-    max-width: 50%;
-    max-height: 200px;
 }
+
+
+.container-box h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.container-box p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.container-box a {
+    text-align: right;
+    color: #707070;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
