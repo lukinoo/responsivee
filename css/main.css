@@ -16,25 +16,6 @@ nav {
     font-family: AR Archy;
 }
 
-.hamburger {
-    display: none;
-    cursor: pointer;
-}
-
-.mobile-nav {
-    width: 100%;
-    height: 100%;
-    background-color: #2E2E2E;
-    display: none;
-}
-
-.first-line, .second-line, .third-line {
-    width: 30px;
-    height: 5px;
-    background-color: #000;
-    margin: 5px;
-}
-
 .nav-links {
     display: flex;
     width: 50%;
@@ -50,7 +31,6 @@ nav {
 .nav-links li a {
     text-decoration: none;
     color: #707070;
-    /* display: none; */
 }
 
 .first-image {
@@ -59,6 +39,10 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
     background-image: url(../images/სლაიდერი3.jpg);
+}
+
+#search {
+    display: none;
 }
 
 .title {
@@ -82,13 +66,18 @@ nav {
 .container-box {
     width: 350px;
     height: 350px;
-    border: 1px solid #707070;
+    border: 1px solid rgba(128, 128, 128, 0.479);
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
     color: #707070;
     font-family: AR Archy;
+    transition: 0.5s;
+}
+
+.container-box:hover {
+    box-shadow: 0 3px 6px #000000;
 }
 
 .container-box img{
@@ -140,15 +129,27 @@ nav {
     font-size: 20px;
 }
 
+.first-image-change {
+    background-image: url(../images/second\ image.jpg);
+    display: none;
+}
+
+
 @media only screen and (max-width:767px) {
+    .nav {
+        display: none;
+        width: 90%;
+        margin: 0 auto;
+    }
+    
     .nav-links {
         display: none;
     }
-    
+
     .container-box {
         margin: 5% auto;
     }
-    
+
     .main-footer-contant {
         height: 50vh;
         display: flex;
@@ -173,16 +174,14 @@ nav {
         display: none;
     }
     
-    .hamburger {
-        display: block;
-    }
-
     .title {
         display: flex;
         justify-content: center;
         align-items: center;
     }
-
+    #search {
+        display: flex;
+    }
 }
 
 
